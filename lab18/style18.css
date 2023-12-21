@@ -1,0 +1,41 @@
+/* Apply styles to all blocks */
+.external-unit,
+.logo-unit,
+.link-unit,
+.cs-text-unit,
+.inner-block,
+.creator-unit {
+    border: 3px solid pink;
+    margin: 5px;
+    background-color: blue;
+}
+
+/* Apply styles to the external block with yellow background */
+#external-block {
+    background-color: yellow;
+}
+
+/* Apply styles to blocks 3, 4, 5 using class selector */
+.link-unit,
+.cs-text-unit,
+.inner-block {
+    background-color: gray;
+    padding: 5px;
+}
+
+/* Set widths for blocks 3, 4, 5 */
+.link-unit {
+    width: 25%;
+    float: left;
+}
+
+.cs-text-unit {
+    width: 60%;
+    float: left;
+}
+
+.inner-block {
+    width: 13%;
+    float: left;
+    clear: right; /* clear the float to start a new row */
+}
